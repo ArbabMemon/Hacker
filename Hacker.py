@@ -99,7 +99,7 @@ jalan('              \033[1;96m▀██▄██▀▀██▄██▀...Hack
 jalan("\033[1;92m   ▀██▄██▀▀██▄██▀•◈•╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬•◈•▀██▄██▀▀██▄██▀   ")
 jalan('\033[1;93m   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈   ')
 jalan('\033[1;93m   ┈┈┈┈┈┈\033[1;91m【A】【R】【B】【A】 【B】-【Z】【A】【D】【A】\033[1;93m┈┈┈┈┈┈   ')
-jalan("\033[1;93m   ┈┈┈┈┈┈\033[1;91m.........√√⓿➌⓿⓿➌⓿➋➌➋➏➌√√......\033[1;93m┈┈┈┈┈┈┈┈┈ ")
+jalan("\033[1;93m   ┈┈┈┈┈┈\033[1;91m.........923003023263......\033[1;93m┈┈┈┈┈┈┈┈┈ ")
 jalan("\033[1;93m   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈")
 print "\033[1;92m•◈•╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬•◈•\033[1;91mLogin Arbab-Memon\033[1;92m•◈•╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬•◈•"
 
@@ -213,8 +213,8 @@ def menu():
 	print "	   \033[1;91m Name\033[1;93m:\033[1;92m"+nama+"\033[1;93m               "
 	print "	   \033[1;91m ID\033[1;93m:\033[1;92m"+id+"\x1b[1;93m              "
 	print "\033[1;92m•◈•╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬•◈•\033[1;91mArbab-Memon\033[1;92m•◈•╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬•◈•"
-	print "\033[1;97m-•◈•-\033[1;92m> \033[1;92m1.\x1b[1;92mStart Cloning..."
-	print "\033[1;97m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mExit            "
+	print "\033[1;97m-•◈•-\033[1;92m> \033[1;92m1.\x1b[1;92mStart Hacking With Arbab..."
+	print "\033[1;97m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mExit Bole to Kalti marna "
 	pilih()
 
 
@@ -251,7 +251,7 @@ def super():
 	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m3.\x1b[1;95mHack Any Gmail Account (Hack Gmail)."
 	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m4.\x1b[1;95mHack Any Yahoo Account (Hack Yahoo)."
 	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m5.\x1b[1;95mHack Any Hotmail Account (Hack Hotmail)."
-	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m6.\x1b[1;95mHack Whatsapp Acount(Upload Soon)."
+	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m6.\x1b[1;95mHack Whatsapp Acount(50%√)."
 	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m7.\x1b[1;95mContact me Arbab Memon(03003023263)."
 	print "\033[1;92m-•◈•-\033[1;91m> \033[1;91m0.\033[1;94mBack"
 	pilih_super()
@@ -349,7 +349,7 @@ def pilih_super():
 		pilih_super()
 	
 	print "\033[1;91mTotal IDs\033[1;93m: \033[1;94m"+str(len(id))
-	jalan('\033[1;92mPlease Wait\033[1;93m...')
+	jalan('\033[1;92mGoing To Crack\033[1;93m...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;91mCloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
