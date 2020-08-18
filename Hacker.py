@@ -247,13 +247,13 @@ def super():
 	os.system('clear')
 	print logo
 	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m1.\x1b[1;95mClone From Friend List (Direct Shoot)."
-	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m2.\x1b[1;95mClone From Public ID (To Clone More)."
-	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m3.\x1b[1;95mHack Any Gmail Account (Hack Gmail)."
-	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m4.\x1b[1;95mHack Any Yahoo Account (Hack Yahoo)."
-	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m5.\x1b[1;95mHack Any Hotmail Account (Hack Hotmail)."
-	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m6.\x1b[1;95mHack Whatsapp Acount(50%√)."
-	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m7.\x1b[1;95mContact me Arbab Memon(03003023263)."
-	print "\033[1;92m-•◈•-\033[1;91m> \033[1;91m0.\033[1;94mBack"
+	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m2.\x1b[1;96mClone From Public ID (To Clone More)."
+	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m3.\x1b[1;97mHack Any Gmail Account (Hack Gmail)."
+	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m4.\x1b[1;98mHack Any Yahoo Account (Hack Yahoo)."
+	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m5.\x1b[1;99mHack Any Hotmail Account (Hack Hotmail)."
+	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m6.\x1b[1;93mHack Whatsapp Acount(50%√)."
+	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m7.\x1b[1;94mContact me Arbab Memon(03003023263)."
+	print "\033[1;92m-•◈•-\033[1;91m> \033[1;91m0.\033[1;92mBack"
 	pilih_super()
 
 def pilih_super():
